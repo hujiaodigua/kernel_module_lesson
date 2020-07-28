@@ -1,0 +1,1 @@
+cmd_/home/user/kernel_module_lesson/skull_module/simple.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-165-generic/scripts/module-common.lds --build-id  -o /home/user/kernel_module_lesson/skull_module/simple.ko /home/user/kernel_module_lesson/skull_module/simple.o /home/user/kernel_module_lesson/skull_module/simple.mod.o
