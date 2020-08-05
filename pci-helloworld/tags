@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KERNELDIR	Makefile	/^KERNELDIR ?= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+__this_module	pci-helloworld.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	pci-helloworld.mod.c	/^__used$/;"	v	file:
+__used	pci-helloworld.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+_mmio	pci-helloworld.c	/^static void __iomem *_mmio;$/;"	v	file:
+_pdev	pci-helloworld.c	/^static struct pci_dev *_pdev;$/;"	v	typeref:struct:pci_dev	file:
+helloworld_pci_driver	pci-helloworld.c	/^static struct pci_driver helloworld_pci_driver = {            \/\/ 填入相关函数$/;"	v	typeref:struct:pci_driver	file:
+obj-m	Makefile	/^obj-m := pci-helloworld.o$/;"	m
+pci_helloworld_exit	pci-helloworld.c	/^module_exit(pci_helloworld_exit);$/;"	v
+pci_helloworld_exit	pci-helloworld.c	/^static void __exit pci_helloworld_exit(void)$/;"	f	file:
+pci_helloworld_init	pci-helloworld.c	/^module_init(pci_helloworld_init);$/;"	v
+pci_helloworld_init	pci-helloworld.c	/^static int __init pci_helloworld_init(void)$/;"	f	file:
+pci_helloworld_open	pci-helloworld.c	/^static int pci_helloworld_open(struct inode *inode, struct file *file) {$/;"	f	file:
+pci_helloworld_probe	pci-helloworld.c	/^static int pci_helloworld_probe(struct pci_dev *pdev, const struct pci_device_id *ent)$/;"	f	file:
+pci_helloworld_remove	pci-helloworld.c	/^static void pci_helloworld_remove(struct pci_dev *pdev) {$/;"	f	file:
+pci_helloworld_reset_pointer	pci-helloworld.c	/^void pci_helloworld_reset_pointer(void __iomem *mmio)$/;"	f
+pci_helloworld_set_buf_len	pci-helloworld.c	/^void pci_helloworld_set_buf_len(void __iomem *mmio, uint8_t len)$/;"	f
+pci_helloworld_show	pci-helloworld.c	/^static int pci_helloworld_show(struct seq_file *m, void *v) {$/;"	f	file:
+pci_helloworld_write	pci-helloworld.c	/^ssize_t pci_helloworld_write (struct file *file, const char __user *buf, size_t len,$/;"	f
+pci_helloworld_write_char	pci-helloworld.c	/^void pci_helloworld_write_char(void __iomem *mmio, char c)$/;"	f
+pcidevtbl	pci-helloworld.c	/^static const struct pci_device_id pcidevtbl[] = {$/;"	v	typeref:struct:pci_device_id	file:
+proc_fops	pci-helloworld.c	/^static const struct file_operations proc_fops = {$/;"	v	typeref:struct:file_operations	file:
