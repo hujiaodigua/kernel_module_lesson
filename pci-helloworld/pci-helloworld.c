@@ -150,7 +150,6 @@ static int __init pci_helloworld_init(void)
         if (rc) {
                 pr_err("failed to register driver.\n");
                 return rc;
-        }
 
         return 0;
 }
